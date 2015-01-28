@@ -1,11 +1,57 @@
 # minimal-android-project
 
-This repository shows how simple it is to set up a valid, working Android project. You will need:
+This repository explores how simple it can be to set up a valid,
+working Android project. You will need:
 
-* One `.java` source file, placed in its appropriate package directory
+* One `.java` activity source file, placed in its appropriate package
+  directory
 * One `AndroidManifest.xml`
 * One `build.gradle`
-  * certainly this is optional, as you can build the project using command line tools from the Android SDK. But
-    let's not complicate things unnecessarily.
+  * Certainly this is optional, as you can build the project using
+    command line tools from the Android SDK. But let's not complicate
+    things unnecessarily.
 
-Suggestions on how to minimize this even further are welcome!
+## How to build
+
+```
+$ git clone https://github.com/czak/minimal-android-project.git
+$ gradle installDebug
+```
+
+The app will be installed on all devices accessible to `adb`.
+
+## Notes
+
+[Gradle Wrapper]: https://gradle.org/docs/current/userguide/gradle_wrapper.html
+
+This project makes a few assumptions about your environment in order
+to build correctly:
+
+* You have `gradle` 2.2.1 installed - there is no [Gradle Wrapper][]
+  included.
+* You have `JAVA_HOME` set up. If you have `java` in your path, you
+  should be good to go.
+* You have `ANDROID_HOME` set to the root folder of your Android SDK
+  installation.
+* SDK and build tools versions are hardcoded in [build.gradle][] to
+  `21` and `21.1.2`, respectively.
+
+Additionally, the folder structure relies on the source set convention
+expected by the Gradle Android plugin:
+
+```
+project
+ ├── build.gradle
+ └── src
+     └── main
+         ├── AndroidManifest.xml
+         └── java
+             └── com
+                 └── icecreamlollipop
+                     └── minimal
+                         └── MainActivity.java
+```
+
+## Contact
+
+Suggestions on how to minimize this further are welcome!
