@@ -2,9 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.icecreamlollipop.minimal"
     android:versionCode="1">
-    <application
-        android:label="Minimal"
-        android:icon="@android:drawable/sym_def_app_icon">
+    <application android:label="Minimal">
         <activity android:name="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
