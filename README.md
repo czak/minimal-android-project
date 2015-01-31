@@ -1,5 +1,8 @@
 # minimal-android-project
 
+Read about this project on my blog:
+http://icecreamlollipop.com/2015/01/31/absolutely-minimal-android-project/
+
 This repository explores how simple it can be to set up a valid,
 working Android project. You will need:
 
