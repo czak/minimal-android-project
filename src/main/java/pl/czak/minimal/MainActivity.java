@@ -1,4 +1,4 @@
-package com.icecreamlollipop.minimal;
+package pl.czak.minimal;
 
 import android.app.Activity;
 import android.os.Bundle;
