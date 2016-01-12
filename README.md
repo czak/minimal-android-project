@@ -23,18 +23,19 @@ The app will be installed on all devices accessible to `adb`.
 ## Notes
 
 [Gradle Wrapper]: https://gradle.org/docs/current/userguide/gradle_wrapper.html
+[build.gradle]: build.gradle
 
 This project makes a few assumptions about your environment in order
 to build correctly:
 
-* You have `gradle` 2.2.1 installed - there is no [Gradle Wrapper][]
+* You have `gradle` 2.10 installed - there is no [Gradle Wrapper][]
   included.
 * You have `JAVA_HOME` set up. If you have `java` in your path, you
   should be good to go.
 * You have `ANDROID_HOME` set to the root folder of your Android SDK
   installation.
 * SDK and build tools versions are hardcoded in [build.gradle][] to
-  `21` and `21.1.2`, respectively.
+  `23` and `23.0.2`, respectively.
 
 Additionally, the folder structure relies on the source set convention
 expected by the Gradle Android plugin:
