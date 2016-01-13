@@ -47,8 +47,8 @@ project
      └── main
          ├── AndroidManifest.xml
          └── java
-             └── com
-                 └── icecreamlollipop
+             └── pl
+                 └── czak
                      └── minimal
                          └── MainActivity.java
 ```
