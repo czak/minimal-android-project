@@ -11,6 +11,9 @@ working Android project. You will need:
     command line tools from the Android SDK. But let's not complicate
     things unnecessarily.
 
+For more in-depth information about this repository, see
+[my blog post](http://czak.pl/2016/01/12/minimal-android-project.html).
+
 ## How to build
 
 ```
