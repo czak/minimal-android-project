@@ -12,7 +12,7 @@ working Android project. You will need:
     things unnecessarily.
 
 For more in-depth information about this repository, see
-[my blog post](http://czak.pl/2016/01/12/minimal-android-project.html).
+[my blog post](http://czak.pl/2016/01/13/minimal-android-project.html).
 
 ## How to build
 
