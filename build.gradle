@@ -1,15 +1,25 @@
 buildscript {
     repositories {
-        jcenter()
+        google()
+        mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.5.0'
+        classpath 'com.android.tools.build:gradle:8.5.2'
     }
+}
+
+repositories {
+    google()
 }
 
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '23.0.2'
+    namespace "pl.czak.minimal"
+
+    compileSdkVersion 34
+
+    defaultConfig {
+        targetSdk 34
+    }
 }
