@@ -31,7 +31,7 @@ The app will be installed on all devices accessible to `adb`.
 This project makes a few assumptions about your environment in order
 to build correctly:
 
-* You have `gradle` 8.7+ installed - there is no [Gradle Wrapper][]
+* You have `gradle` 8.11+ installed - there is no [Gradle Wrapper][]
   included.
 * You have `JAVA_HOME` set up. If you have `java` in your path, you
   should be good to go.

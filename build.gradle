@@ -4,12 +4,13 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.5.2'
+        classpath 'com.android.tools.build:gradle:8.10.0'
     }
 }
 
 repositories {
     google()
+    mavenCentral()
 }
 
 apply plugin: 'com.android.application'
@@ -17,9 +18,9 @@ apply plugin: 'com.android.application'
 android {
     namespace "pl.czak.minimal"
 
-    compileSdkVersion 34
+    compileSdkVersion 35
 
     defaultConfig {
-        targetSdk 34
+        targetSdk 35
     }
 }
